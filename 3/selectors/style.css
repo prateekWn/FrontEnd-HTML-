@@ -1,0 +1,29 @@
+* {
+    font-style: italic;
+}
+
+.big{
+    color: aqua;
+}
+
+div{
+    color: blue;
+}
+p{
+    color: red;
+}
+
+.bold {
+    font-weight: bolder;
+}
+#two{
+    background-color: chartreuse;
+}
+
+input[disabled]{
+    font-size: xx-large;
+}
+
+input[type="abcd"]{
+    font-size: xx-large;
+}
