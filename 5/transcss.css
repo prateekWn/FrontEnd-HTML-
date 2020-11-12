@@ -1,0 +1,25 @@
+*{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+div{
+    width: 80px;
+    height: 80px;
+    background-color: skyblue;
+}
+.one{
+    /* transform: scale(2,1); */
+    transform: scaleX(2);
+    /* transform: scaleY(3); */
+}
+.two{
+    transform: rotateY(50deg);
+    /* transform: rotateX(120deg); */
+    /* transform: rotate(45deg); */
+}
+.six{
+    /* transform: skew(25deg, 25deg); */
+    /* transform: skewX(30deg) skewY(15deg); */
+    transform: skew(-41deg,32deg) ;
+}
