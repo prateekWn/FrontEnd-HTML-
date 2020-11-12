@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Media</h1>
+
+    <img src="media/photo.jpg" alt="Sample Photo" width="500">
+
+    <br>
+<!-- 
+    <video src="media/file_example_MP4_480_1_5MG.mp4" controls height="250"></video>
+
+    <br> -->
+
+    <!-- Loop helps to play it again when it is finished -->
+
+    <!-- <video src="media/file_example_MP4_480_1_5MG.mp4" controls height="450" loop> </video> -->
+
+    <!-- <br> -->
+
+    <!-- preload = none means it does not load any metadata regarding the video until the user press the play button 
+         preload = metadata it means that it load the metadata but not play or show the length but when the user hit the play then it will      
+    -->
+    
+    <video src="media/file_example_MP4_480_1_5MG.mp4" controls height="450" preload="none"></video>
+
+    <video src="media/file_example_MP4_480_1_5MG.mp4" controls height="450" preload="metadata"></video>
+
+    <br>
+
+    <!-- in audio you hvae to give the controls option otherwise it wont play or show  -->
+    <audio  controls src="media/crowd-cheering.mp3"></audio>
+
+</body>
+</html>
