@@ -1,0 +1,52 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: lightseagreen;
+    border: maroon dashed 1px;
+    margin: 10px;
+}
+
+div{
+
+    background-color: darkorchid;
+    display: inline-block;
+    border: solid 2px darkorange;
+    height: 50px;
+    width: 50px;
+}
+/* 
+.container:hover .player:active {
+    animation-play-state: running;
+    animation-name: slide;
+} */
+
+
+.container:hover .player {
+    animation-play-state: running;
+    animation-name: slide;
+}
+
+.player{
+    transform: translateY(225px);
+    animation: slide 8s infinite linear;
+    animation-play-state: paused;
+}
+
+.enemy{
+    margin-left:120px ;
+    animation: bounce 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes slide{
+    50%{
+        transform: translateX(450px) translateY(225px)  ;
+    }
+}
+
+@keyframes bounce{
+    50%{
+        transform: translateY(450px) ;
+    }
+}
