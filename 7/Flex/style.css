@@ -1,0 +1,32 @@
+.container{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 10px;
+    background-color: lightsalmon;
+    border: greenyellow 2px dashed;
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* How itmes within each row are aligned in order */
+    justify-content: space-between;
+
+    /* align items within the row perpendicular */
+    align-items: flex-end;
+
+    /* how all the rows toether aligned */
+
+    align-content: center;
+}
+
+.item{
+    /* margin: 25px; */
+    /* if we remover te margin due to flex box the space due to the 
+    white spaces between div will automatically go away */
+    width: 50px;
+    height: 50px;
+    border: darkturquoise dotted 2px;
+    background-color: rgb(45, 181, 235);
+    color: greenyellow;
+    font-size: 20px;
+}
